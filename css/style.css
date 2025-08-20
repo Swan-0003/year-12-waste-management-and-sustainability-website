@@ -141,6 +141,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .step-img {
@@ -153,6 +154,7 @@
 .footer {
   padding: 12.8rem 0;
   border-top: 1px solid #eee;
+  background-color: #ece8e3;
 }
 
 .grid--footer {
@@ -221,4 +223,62 @@
 .footer-link:hover,
 .footer-link:active {
   color: #555;
+}
+
+/* *************************** */
+/* LOADING BAR */
+/* *************************** */
+.loading-bar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 6px;
+  background: #eee;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-bar {
+  width: 0;
+  height: 100%;
+  background: #4caf50;
+  animation: loading 2s linear forwards;
+}
+
+.loading-text {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+@keyframes loading {
+  to {
+    width: 100vw;
+  }
+}
+
+/* Hide loading bar after animation */
+.loading-bar-container:has(.loading-bar[style*="width: 100vw"]) {
+  display: none;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.waste-img {
+  width: 100%;
+}
+
+.future-text {
+  font-size: 6.2rem;
+  text-align: center;
+  margin-top: 8rem;
 }
