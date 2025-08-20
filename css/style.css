@@ -37,7 +37,7 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: white;
+  font-weight: 700;
 }
 
 .main-nav-link.nav-cta:link,
