@@ -17,9 +17,17 @@
     <title>Wastemanagement and sustainability</title>
   </head>
   <body>
-    <header>
-      <!-- LOGO -->
-      <nav></nav>
+    <header class="header">
+      <img class="logo" alt="Website logo" src="img/logo.png" />
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">Section 1</a></li>
+          <li><a class="main-nav-link" href="#">Section 2</a></li>
+          <li><a class="main-nav-link" href="#">Section 3</a></li>
+          <li><a class="main-nav-link" href="#">Section 4</a></li>
+          <li><a class="main-nav-link nav-cta" href="#">Section 5</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <section class="section-hero">
@@ -37,11 +45,159 @@
             <img
               src="img/hero-img-1.png"
               class="hero-img hero-img-left"
-              alt="#"
+              alt="standalone flower, beach with rubbish, and cows in pollution"
             />
           </div>
         </div>
       </section>
     </main>
+
+    <section class="section-why">
+      <div class="container">
+        <span class="subheading">Everyone Together</span>
+        <h2 class="heading-secondary">Why it matters</h2>
+      </div>
+
+      <div class="container grid grid--2-cols grid--center-v">
+        <!-- STEP 01 -->
+        <div class="step-text-box">
+          <p class="step-number">01</p>
+          <h3 class="heading-tertiary">Protecting the Environment</h3>
+          <p class="step-description">
+            Litter and waste harm New Zealand's land and wildlife. A 2019 survey
+            found that industrial areas had the highest litter levels, with over
+            250 items per 1,000 m². Managing waste properly helps keep our
+            natural spaces clean and protects native biodiversity.
+          </p>
+        </div>
+        <div class="step-img-box">
+          <img
+            src="img/step-img-1.jpg"
+            class="step-img"
+            alt="old rubbish dump area"
+          />
+        </div>
+
+        <!-- STEP 02 -->
+        <div class="step-img-box">
+          <img
+            src="img/step-img-2.jpg"
+            class="step-img"
+            alt="factory chimney emitting smoke"
+          />
+        </div>
+        <div class="step-text-box">
+          <p class="step-number">02</p>
+          <h3 class="heading-tertiary">Reducing Greenhouse Gases</h3>
+          <p class="step-description">
+            Waste in landfills creates methane, a powerful greenhouse gas. Since
+            the 1990s, improvements like gas capture systems have cut landfill
+            emissions in New Zealand by nearly 20%. Some landfills even turn
+            that gas into energy, powering thousands of homes.
+          </p>
+        </div>
+
+        <!-- STEP 03 -->
+        <div class="step-text-box">
+          <p class="step-number">03</p>
+          <h3 class="heading-tertiary">Building Sustainable Communities</h3>
+          <p class="step-description">
+            In Auckland, groups and businesses are already showing what can be
+            done. Rescued turns surplus food into new products, Citizen
+            Collective brews beer from leftover bread, and Ripe Deli serves
+            plant-based meals while cutting waste. Community groups like Local
+            encourage people to share resources and live more sustainably, while
+            brands such as Ceres Organics offer organic options nationwide.
+            These efforts show how small changes add up to a big impact.
+          </p>
+        </div>
+        <div class="step-img-box">
+          <img
+            src="img/step-img-3.jpg"
+            class="step-img"
+            alt="a line of different peoples hands on a tree"
+          />
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="Website logo" src="img/logo.png" />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">Copyright &copy; All rights reserved.</p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">1 Lupton Avenue, Regent, Whangārei 0112</p>
+            <p>
+              <a class="footer-link" href="#">012 3456 7890</a><br />
+              <a class="footer-link" href="#"
+                >Wms0003<strong>@</strong>gmail.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About Wms</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Partners</a></li>
+            <li><a class="footer-link" href="#">Helpers</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Credits </a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
