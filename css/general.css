@@ -1,0 +1,65 @@
+/* 
+
+--- 01TYPOGRAPHY SYSTEM 
+
+- Font sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights:
+Default: 
+Medium: 
+Semi-bold: 
+Bold: 
+
+- Line heights:
+Default: 
+Small: 
+Medium: 
+Paragraph default: 
+
+- Letter spacing:
+
+
+
+--- 02 Colors
+
+-Primary: 
+
+
+--- 05 SHADOWS
+
+--- 06 BORDER-RADIUS
+
+--- 07 WHITE SPACE
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+/* REUSABLE */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: black;
+}
+
+.primary-heading {
+  font-size: 4.4rem;
+  font-weight: 650;
+  margin-bottom: 3.2rem;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
